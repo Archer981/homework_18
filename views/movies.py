@@ -1,7 +1,5 @@
 from flask import request
 from flask_restx import Namespace, Resource
-from setup_db import db
-from dao.model.movies import Movie, MovieSchema
 from conteiner import movie_service
 
 
